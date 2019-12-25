@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManageActivity">
+
+    <EditText
+        android:id="@+id/etempno"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter search"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+
+    <Button
+        android:id="@+id/btnmanagesearh"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+
+    <EditText
+        android:id="@+id/etmanageemployeename"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Employee No."
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+    <EditText
+        android:id="@+id/etmanageemployeesalary"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Employee Salary"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+    <EditText
+        android:id="@+id/etmanageemployeeage"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter No."
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+</LinearLayout>
